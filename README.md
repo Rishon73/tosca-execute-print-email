@@ -16,5 +16,5 @@ Note, in my example I'm using my gmail account because my work Outlook 365 has s
 
 ### Step 3: Run the batch file
 
-Type in command line:
-"Tosca - Run Test, Print Report and Send Email.bat"
+In command line, navigate to the location of the *.bat* and *.tcs* file and run the batch file by typing:
+*"Tosca - Run Test, Print Report and Send Email.bat"*
