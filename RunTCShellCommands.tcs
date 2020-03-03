@@ -1,0 +1,26 @@
+// RunTCShellCommands.tcs
+
+// Navigate to the node we need
+jumpToNode "/CI Demo/Execution/Demo Execution Lists/Overnight Builds/Short Execution List"
+
+// Run the ExecutionList / TestCase
+task run
+
+// Generate a pdf report
+task "Print Report ... ExecutionEntries with ActualLog"
+
+// Report location and name
+C:\\shahar\\Reports\\ExecutionReport.pdf
+
+// Navigate to Send Mail test TestCase
+jumpToNode "/CI Demo/TestCases/Sandbox/Send PDF Report"
+
+// Run the Send Mail test TestCase
+task "Run in ScratchBook"
+
+// Exit TCShell
+exit
+
+// Confirm exit
+y
+y
