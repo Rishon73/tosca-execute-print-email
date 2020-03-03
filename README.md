@@ -11,5 +11,10 @@ To get the right Tosca node, select the ExecutionList or TestCase you want to ru
 
 ### Step 2: Create a test case that sends an email
 
-Import the **Send Mail.tsu** subset to your workspace and update the fields accordingly.
+Import the **Send Mail.tsu** subset to your workspace and update the TestCase Steps values accordingly.
 Note, in my example I'm using my gmail account because my work Outlook 365 has security features I cannot disable/change. These settings are not allowing me to use the SMTP server.
+
+### Step 3: Run the batch file
+
+Type in command line:
+"Tosca - Run Test, Print Report and Send Email.bat"
